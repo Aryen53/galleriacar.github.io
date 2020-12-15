@@ -40,11 +40,11 @@ return false;}
                 Sign up
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="usersignup.php">Members</a>
+                    <a class="dropdown-item" href="usersignup.html">Members</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="sellersignup.php">Car Seller</a>
+                    <a class="dropdown-item" href="sellersignup.html">Car Seller</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="garagesign.php">Garage owner</a>
+                    <a class="dropdown-item" href="garagesign.html">Garage owner</a>
                 </div>
             </li>
            <li class="nav-item dropdown">
@@ -52,13 +52,13 @@ return false;}
                Login
                 </a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="adminlognew.php">Admin</a>
+                    <a class="dropdown-item" href="adminlognew.html">Admin</a>
 					<div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="userlognew.php">Members</a>
+                    <a class="dropdown-item" href="userlognew.html">Members</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="sellerlognew.php">Car Seller</a>
+                    <a class="dropdown-item" href="sellerlognew.html">Car Seller</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="garagelog.php">Garage owner</a>
+                    <a class="dropdown-item" href="garagelog.html">Garage owner</a>
                 </div>
             </li>
             
