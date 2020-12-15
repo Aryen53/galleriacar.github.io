@@ -68,7 +68,7 @@ if(mysqli_num_rows($result) > 0){
 	while($row = mysqli_fetch_array($result)){
 		?>
 		<div class="col-md-3">
-<form method="post" action="CARSOLD3.php?action=add&id=<?php echo $row["idGallery"] ?>">
+<form method="post" action="CARSOLD3.html?action=add&id=<?php echo $row["idGallery"] ?>">
 <div class="product">
 <img src="<?php  echo 'url(uploads/Gallery/'.$row["imgFullNameGallery"].')';?>" class="img-responsive">
 
@@ -115,7 +115,7 @@ if(!empty($_SESSION["cart"]))
 		<td><?php echo $value["item_quantity"]; ?></td>
 		<td><?php echo $value["item_price"]; ?></td>
 		<td><?php echo number_format($value["item_quantity"] * $value["item_price"], 2); ?></td>
-		<td><a href="CARSOLD3.php?action=delete&id=<?php echo $value["item_id"]; ?>"><span class="text-danger">Remove</span></a></td>
+		<td><a href="CARSOLD3.html?action=delete&id=<?php echo $value["item_id"]; ?>"><span class="text-danger">Remove</span></a></td>
 		</tr>
 		<?php
 		$total = $total + ($value["item_quantity"] * $value["item_price"]);
